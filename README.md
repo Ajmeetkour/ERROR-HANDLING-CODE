@@ -1,4 +1,4 @@
-# Hello World
+# Error Handling
 
 This Solidity program is "Error handling" program that demonstrates the error handling concept and functionality of  revert(), assert() and require() statement of the Solidity programming language.
 
