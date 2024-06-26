@@ -37,11 +37,11 @@ To compile the code, click on the "Solidity Compiler" tab in the left-hand sideb
 
 Once the code is compiled, you can deploy the contract by clicking on the "Deploy & Run Transactions" tab in the left-hand sidebar. Select the "Error" contract from the dropdown menu, and then click on the "Deploy" button.
 
-Once the contract is deployed, you can interact with it by calling the conditionverification, donation, Totalvalue function. Click on the "Paymentcontract" contract in the left-hand sidebar, and then click on all the functions one by one. Finally, click on the "call" button to execute the function and retrieve the  message.
+Once the contract is deployed, you can interact with it by calling the conditionVerification, donation and Totalvalue function. Click on the "Paymentcontract" contract in the left-hand sidebar, and then click on all the functions one by one. Finally, click on the "call" button to execute the function and retrieve the  message.
 
 ## Authors
 
-Ajmeet kour
+Ajmeet kour @Ajmeetkour
 
 
 ## License
