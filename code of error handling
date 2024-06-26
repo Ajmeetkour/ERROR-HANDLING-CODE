@@ -1,0 +1,23 @@
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.0;
+
+contract PaymentContract {
+    uint public GST=200;
+  
+    function Totalvalue(uint  payment) public view returns(uint) {
+        require(payment > 0, "payment must be greater than zero");
+        return GST+payment;
+    }
+
+    function Donation(uint Salary) public pure {
+    
+        if (Salary<30000) {
+            revert("You can't donate");
+        }
+    }
+
+    function ConditionVerification(uint donation) public pure {
+      
+        assert( donation > 500);
+    }
+}
